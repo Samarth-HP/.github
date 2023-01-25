@@ -65,7 +65,7 @@ The esamwad-backend system is built using Django. The system uses smaller micros
 * CDAC Service: A service to send SMSs (from teachers to parents)
   via [mobile seva](https://mgov.gov.in/SMSGateway)
 * ODK - UCI Adapter: A service to trigger a workflow (make an API call, send an SMS, etc..) post an
-  ODK form is filled using [UCI](https://uci.sunbird.org/)
+  ODK form is filled & submitted in the Android App. This service supports sending of SMSes via CDAC Service and [UCI](https://uci.sunbird.org/).
 * Doc Generator: A service to create PDFs (school leaving certificates, report cards, etc..)
   using [Doc Generator](https://github.com/Samagra-Development/Doc-Generator).
 
