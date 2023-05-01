@@ -19,7 +19,8 @@ is a teacher facing intervention. Which helps teacher in
 * Student Management (Add, Remove, Promote)
 * Recurring school activities (Attendance Marking, Mark Collection, Homework Sharing
 * Communication with Parents (Meeting Announcements, Results Sharing, Holiday announcements)
-* Outcome based learning (Nipun lakshya abhyaas)
+* Outcome based learning / Assessment – LO and ORF level data (Nipun lakshya abhyaas)
+
 
 The application is predominantly written in Java with newer elements in Kotlin. The app extensively
 uses a modified version of [ODK](https://getodk.org/) to collect data. The app
@@ -32,7 +33,12 @@ Repository: https://github.com/Samarth-HP/eSamwad-app
 
 The [Shiksha Saathi Android Application](https://play.google.com/store/apps/details?id=com.samagra.shikshaSaathi)
 is a mentor facing intervention. At its core its a data collection application to facilitate the
-state to track school needs and check progress on various state mandates.
+state to track school needs and check progress on various state mandates. It allows collection of: 
+
+* School Mentoring Visit Observations
+* School Monitoring Visit Observations
+* Review Meetings
+* School Infrastructure Data
 
 The application is predominantly written in Java with newer elements in Kotlin. The app extensively
 uses a modified version of ODK to collect data. The app uses Hasura for easier access and storage of
